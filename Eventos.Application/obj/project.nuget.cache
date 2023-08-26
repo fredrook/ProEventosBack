@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5tt79Dc9RyU8wnj+67ucnTmEgm/3sDVdzlgg8GGA/Dm+PEr7AN0r8SOXpHMNXx5fzyHANhvJSSnmigze5UZzZg==",
+  "dgSpecHash": "NQZcBVCt8wXwsQYghq3Inm+urexMTHvaf1O7Z/bTrxrJJ1wEn3cVemWMBHSD9SVG/IFDZkIUrPw7fX760qihwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -56,6 +56,8 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.32.1\\system.identitymodel.tokens.jwt.6.32.1.nupkg.sha512",

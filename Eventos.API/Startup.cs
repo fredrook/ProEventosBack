@@ -38,8 +38,12 @@ namespace ProEventos.API
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ProEventosContext>(
+            /* services.AddDbContext<ProEventosContext>(
                 context => context.UseSqlite(Configuration.GetConnectionString("Default"))
+            ); */   
+
+            services.AddDbContext<ProEventosContext>(
+                options => options.UseNpgsql(Configuration.GetConnectionString("Default"))
             );
 
             services.AddIdentityCore<User>(options =>
@@ -52,7 +56,7 @@ namespace ProEventos.API
             })
             .AddRoles<Role>()
             .AddRoleManager<RoleManager<Role>>()
-            .AddSignInManager<SignInManager<User>>()    
+            .AddSignInManager<SignInManager<User>>()
             .AddRoleValidator<RoleValidator<Role>>()
             .AddEntityFrameworkStores<ProEventosContext>()
             .AddDefaultTokenProviders();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.API\\Eventos.API.csproj": {}
+    "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.API\\Eventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.API\\Eventos.API.csproj": {
+    "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.API\\Eventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.API\\Eventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.API\\Eventos.API.csproj",
         "projectName": "Eventos.API",
-        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.API\\Eventos.API.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.API\\Eventos.API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.API\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj"
+              "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj"
               }
             }
           }
@@ -71,10 +71,6 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.9, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -84,6 +80,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -113,14 +113,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj": {
+    "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj",
         "projectName": "Eventos.Application",
-        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\Eventos.Application.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\Eventos.Application.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Application\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,11 +137,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj"
               },
-              "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\Eventos.Persistence.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\Eventos.Persistence.csproj"
+              "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\Eventos.Persistence.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\Eventos.Persistence.csproj"
               }
             }
           }
@@ -193,14 +193,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj": {
+    "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj",
         "projectName": "Eventos.Domain",
-        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,14 +254,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\Eventos.Persistence.csproj": {
+    "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\Eventos.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\Eventos.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\Eventos.Persistence.csproj",
         "projectName": "Eventos.Persistence",
-        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\Eventos.Persistence.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\Eventos.Persistence.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -278,8 +278,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\EventoBack\\Eventos.Domain\\Eventos.Domain.csproj"
+              "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\ZZZZZ\\ProEventos\\ProEventosBack\\Eventos.Domain\\Eventos.Domain.csproj"
               }
             }
           }
@@ -305,6 +305,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[7.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
